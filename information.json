@@ -1,0 +1,67 @@
+{ 
+    "Firewall":
+        {
+            "description": "This gives the user to check if their Windows Firewall Status is on or off.",
+            "importance": "This is of inportant because if the user previously disabled their firewall to maybe run a program or install a file that required a firewall bypass and may have not turned it on again. It will allow the user to return the firewall to an aware state."
+        },
+    "Screen Lock":
+        {
+            "description": "This displays is the timer for when the screen will lock",
+            "importance": "We believe this is of importance due to the fact that many of us tend to leave our computers unlocked when doing basic tasks like using the restroom or going to get lunch. We may be unaware of the fact that our computers may be set to never sleep leaving it unlocked."
+        },
+    "Remote Login":
+        {
+            "description":"This function will display whether the SSH function/Port 22 is open on your computer",
+            "importance":"This is important piece of info, because that is currently one of the most focused ports in attack vectors."
+        },
+    "Wi-Fi Info":
+        {
+            "description":"This function will return the WIFI history of the computer and the current WIFI that the system is connected to. As well as their status and encryption type.",
+            "importance":"This is important because WIFI is one of the main access routes into a USERS system. A comprised network can lead to all sorts of trouble and being connected to one can provide dangers to an individuals system."
+        },
+    "Wi-Fi History":
+        {
+            "description":"This displays all of the internet SSID's that you have connected to.",
+            "importance":"Being aware of this allows you to see what you've connected to because many people set the options to connect to SSID's automatically."
+        },
+    "Software":
+        {
+            "description":"This will return the programs that are installed on the computer.",
+            "importance":"The importance of this is to inventory what software is installed on your system. It can show vulnerabilities"
+        },
+    "Startup Programs":
+        {
+            "description":"This function will return the programs that run on startup.",
+            "importance":"It is important to know what software is running on startup because there might be maliious software that runs on startup."
+        },
+    "IP Address":
+        {
+            "description":"This function will return the User's IP address",
+            "importance":"The importance of this is its good to know what your ip address is on your home system. It is essentially the name of your computer"
+        },
+    "MAC Address":
+        {
+            "description":"This function will return the Users Mac Address",
+            "importance":"The importance of this is to know what your MAC address is, because each MAC address in unique to the computer."
+        },
+    "Memory":
+        {
+            "description":"This function will return the total amount of disk space and the available memory.",
+            "importance":"This is important to know how much data you have left that you are able to store."
+        },
+    "Updates":
+        {
+            "description":"This function returns the available updates for the current operating system.",
+            "importance":"Updates are vital to a system as previous versions of an OS can contains vulnerabilities and exploits"
+        },
+    "Disk Encryption":
+        {
+            "description":"This function returns whether bit locker on windows is on or off.",
+            "importance":"The Importance of this function is to tell the user whether or not their data encrypted."
+        },
+    "Open Ports":
+        {
+            "description":"Function will return the ports that are currently being used",
+            "importance":"Importance of this function is to give inventory to the user of which ports are in use. This can be valuable because for example port 22 might be in us but you never had to accept any ssh permission"
+        }
+}
